@@ -10,8 +10,9 @@ class kntl():
         self.gb=self.hh+self.number
         self.smp()
         time.sleep(3)
+    def for(self):
         for i in range(ulang):
-    print "Perulangan ke-"+str(i)
+                print "Perulangan ke-"+str(i)
     def smp(self):
                 self.hd={
                 'Domain-Name': 'stg',
