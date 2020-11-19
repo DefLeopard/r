@@ -8,7 +8,7 @@ class kntl():
         self.hh=input('\033[00mCountry Code: \033[96m')                      
         self.number=input('\033[00mPhone Number: \033[96m')
         self.range=input('\033[00mPengulangan: \033[96m')
-        self.gb=self.hh+self.number
+        self.gb=self.hh+self.number+self.range
         self.smp()
         time.sleep(3)
     def smp(self):
