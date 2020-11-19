@@ -7,12 +7,10 @@ class kntl():
         self.acak = random.choice(self.ua)
         self.hh=input('\033[00mCountry Code: \033[96m')                      
         self.number=input('\033[00mPhone Number: \033[96m')
+        self.range=input('\033[00mPengulangan: \033[96m')
         self.gb=self.hh+self.number
         self.smp()
         time.sleep(3)
-    def for(self):
-        for i in range(ulang):
-                print "Perulangan ke-"+str(i)
     def smp(self):
                 self.hd={
                 'Domain-Name': 'stg',
